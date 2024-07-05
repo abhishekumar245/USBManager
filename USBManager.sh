@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# USB Manager
+# A small bash script for manage USB Drives on Linux terminal.
+# Author - Abhishek Kumar
+
 clear
 echo "+---------------------------------+"
 echo "|╦ ╦╔═╗╔╗    ╔╦╗╔═╗╔╗╔╔═╗╔═╗╔═╗╦═╗|"
