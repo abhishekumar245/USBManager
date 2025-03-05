@@ -46,8 +46,8 @@ else
     exit 1
 fi
 
-read -p $'[\033[0;32m*\033[0m] Enter USB drive name (e.g. /dev/sda1): ' usbname
-read -p $'[\033[0;32m*\033[0m] Enter folder name with its path for USB Drive: ' usbfolder
+read -e -p $'[\033[0;32m*\033[0m] Enter USB drive name (e.g. /dev/sda1): ' usbname
+read -e -p $'[\033[0;32m*\033[0m] Enter folder name with its path for USB Drive: ' usbfolder
 
 if mkdir -p "$usbfolder"; then
     echo -e "[${green}*${reset}] Directory created!"
